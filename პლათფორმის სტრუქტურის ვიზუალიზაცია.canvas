@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"c21cf8a9bffdd94c","type":"text","text":"# საგანი / Subject\n\n- Name","x":180,"y":-360,"width":340,"height":140},
+		{"id":"75bb434a05bf4602","type":"text","text":"# User\n\n- First Name\n- Last name\n- Email\n- Phone\n- პირადი ნომერი\n- Profile picture\n- username","x":-1480,"y":-181,"width":280,"height":301},
+		{"id":"26caee099bb6974e","type":"text","text":"# User Role - სტუდენტი / Student\n","x":-1160,"y":29,"width":500,"height":59},
+		{"id":"f2fa9770a1c3a83d","type":"text","text":"# User Role -  მენტორი / Mentor\n\n","x":-1160,"y":-181,"width":500,"height":81},
+		{"id":"28a71c1a24ac6f35","type":"text","text":"# პროგრამა / Program\n\n- Name\n- Subjects →","x":-320,"y":-560,"width":410,"height":159},
+		{"id":"9548e90b83ea5556","type":"text","text":"# სერვისი / Service\n\n- Name\n- Price\n- Recurring ","x":-660,"y":-401,"width":300,"height":157},
+		{"id":"319ff27f902bbf1c","type":"text","text":"# Mentor / მენტორის პროფაილი\n\n- Services →\n- Programs →\n- User →","x":-1280,"y":-597,"width":498,"height":196},
+		{"id":"594052f204a3d440","type":"text","text":"# რეგისტრაცია / Enrolment\n- Start Date\n- Last payment date\n- Service →\n- Program →\n- Mentor →","x":-335,"y":-106,"width":440,"height":226},
+		{"id":"f2ee844ad7734209","type":"text","text":"# გადახდა / Payment\n\n- Enrolment\n- Card Mask\n- Token (Card)\n- PayzePaymentId","x":-240,"y":220,"width":345,"height":260},
+		{"id":"5c2cbaafdfbf52f3","type":"text","text":"# Student / სტუდენტის პროფაილი","x":-1321,"y":220,"width":539,"height":100},
+		{"id":"98c6d51548c50e49","type":"file","file":"პლათფორმის სტრუქტურა.md","x":-2280,"y":-260,"width":645,"height":460},
+		{"id":"84f258381cc97ed0","x":-1310,"y":398,"width":259,"height":62,"type":"text","text":"# DIscord Server"}
+	],
+	"edges":[
+		{"id":"0100110cde3ad14f","fromNode":"594052f204a3d440","fromSide":"left","toNode":"26caee099bb6974e","toSide":"right"},
+		{"id":"5c3633cccd588ae6","fromNode":"594052f204a3d440","fromSide":"left","toNode":"f2fa9770a1c3a83d","toSide":"right"},
+		{"id":"47ada1f47e4f0b96","fromNode":"594052f204a3d440","fromSide":"top","toNode":"28a71c1a24ac6f35","toSide":"bottom"},
+		{"id":"bf59826083c1a373","fromNode":"28a71c1a24ac6f35","fromSide":"right","toNode":"c21cf8a9bffdd94c","toSide":"left"},
+		{"id":"e24d676243771ae1","fromNode":"f2ee844ad7734209","fromSide":"top","toNode":"594052f204a3d440","toSide":"bottom"},
+		{"id":"319e9025d2fd108a","fromNode":"594052f204a3d440","fromSide":"top","toNode":"9548e90b83ea5556","toSide":"bottom"},
+		{"id":"2f24d83dc8ebbe65","fromNode":"319ff27f902bbf1c","fromSide":"bottom","toNode":"f2fa9770a1c3a83d","toSide":"top"},
+		{"id":"882db01b1640e0f3","fromNode":"319ff27f902bbf1c","fromSide":"right","toNode":"28a71c1a24ac6f35","toSide":"left"},
+		{"id":"8a44b4988fb6771a","fromNode":"319ff27f902bbf1c","fromSide":"right","toNode":"9548e90b83ea5556","toSide":"left"},
+		{"id":"30c59ea276d33308","fromNode":"75bb434a05bf4602","fromSide":"right","toNode":"f2fa9770a1c3a83d","toSide":"left"},
+		{"id":"0f07148af2d031eb","fromNode":"75bb434a05bf4602","fromSide":"right","toNode":"26caee099bb6974e","toSide":"left"},
+		{"id":"031b662ea19f2903","fromNode":"5c2cbaafdfbf52f3","fromSide":"top","toNode":"26caee099bb6974e","toSide":"bottom"}
+	]
+}
